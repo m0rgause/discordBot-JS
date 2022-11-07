@@ -68,12 +68,12 @@ module.exports = {
     },
 
     IMAGE: {
-        ENABLED: false,
+        ENABLED: true,
         BASE_API: "https://image-api.strangebot.xyz",
     },
 
     INVITE: {
-        ENABLED: false,
+        ENABLED: true,
     },
 
     MODERATION: {
