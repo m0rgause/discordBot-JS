@@ -41,7 +41,7 @@ module.exports.launch = async (client) => {
         }),
       })
     ) // Set the express session password and configuration
-        name: "connection",})) // Set the express session password and configuration
+    // Set the express session password and configuration
     .use(async function (req, res, next) {
       req.user = req.session.user;
       req.client = client;
